@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: water
-  m_Shader: {fileID: 4800000, guid: f1972f3fbb7c1a242a6feac1e5708461, type: 3}
+  m_Name: transparent
+  m_Shader: {fileID: 4800000, guid: 0dc68e5d97428b049baa7a6f39ad39fa, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -61,7 +61,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.719
+    - _Glossiness: 0.346
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
@@ -69,19 +69,15 @@ Material:
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _Speed: 1
+    - _Speed: 0.5
     - _SrcBlend: 1
-    - _Steepness: 0.379
-    - _Transparency: 0.99
+    - _Steepness: 0.5
+    - _Transparency: 0.368
     - _UVSec: 0
     - _Wavelength: 10
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.2197935, g: 0.48206255, b: 0.7924528, a: 1}
-    - _Direction: {r: 1, g: 1, b: 1, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _TintColor: {r: 0, g: 0.92626476, b: 1, a: 1}
-    - _WaveA: {r: 1, g: 1, b: 0.12, a: 4.28}
-    - _WaveB: {r: 1.72, g: 0.6, b: 0.12, a: 9.87}
-    - _WaveC: {r: 1, g: 30.07, b: 0.12, a: 12.75}
+    - _TintColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
