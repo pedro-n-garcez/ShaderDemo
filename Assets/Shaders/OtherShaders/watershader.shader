@@ -45,7 +45,7 @@
         float4 _WaveA;
         float4 _WaveB;
         float4 _WaveC;
-
+        
         float3 Wave(float4 wave, float3 pos, inout float3 tan, inout float3 binormal)
         {
         	float steepness = wave.z;

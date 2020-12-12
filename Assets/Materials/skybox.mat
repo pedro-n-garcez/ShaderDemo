@@ -76,7 +76,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Tex:
-        m_Texture: {fileID: 8900000, guid: fdc7d13b0a7a45945bc9b2189bf421cc, type: 3}
+        m_Texture: {fileID: 8900000, guid: d9f2b27bdf34d2f408dc7375dd6dabb3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _UpTex:
@@ -84,12 +84,12 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AtmosphereThickness: 1.84
+    - _AtmosphereThickness: 0.42
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _Exposure: 0.4
+    - _Exposure: 0.43
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -101,22 +101,22 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Rotation: 0
+    - _Rotation: 29
     - _RotationY: 0
     - _RotationZ: 279
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _SunDisk: 2
-    - _SunSize: 0.898
-    - _SunSizeConvergence: 4.41
+    - _SunSize: 0.085
+    - _SunSizeConvergence: 2.54
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GroundColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Rotation: {r: -5.02, g: 5.85, b: 1.07, a: 0}
-    - _SkyTint: {r: 1, g: 0, b: 0, a: 1}
-    - _Tint: {r: 0.2736205, g: 0.2782803, b: 0.33962262, a: 0.5}
+    - _GroundColor: {r: 0.6037736, g: 0.51866865, b: 0.38390887, a: 1}
+    - _Rotation: {r: 0, g: 0, b: 0, a: 0}
+    - _SkyTint: {r: 0, g: 0, b: 0, a: 1}
+    - _Tint: {r: 0.2867924, g: 0.47673538, b: 1, a: 0.5}
   m_BuildTextureStacks: []
